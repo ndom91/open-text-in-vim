@@ -63,15 +63,8 @@ bin/open-in-vim path/to/file
 
 Use it when you don't want the file landing in your tmux session.
 
-## Layout
-
-```
-build.sh                 osacompile + Info.plist patch -> OpenInVim.app
-set-default-handler.sh   duti-based default-app registration
-src/main.applescript     droplet source (tmux + nvim + Ghostty)
-src/doctypes.plist       "associate all files" document-types fragment
-bin/open-in-vim          standalone no-tmux variant
-```
+> Contributing or using an AI agent on this repo? See [AGENTS.md](AGENTS.md) for
+> architecture, build steps, and constraints.
 
 ## License
 
