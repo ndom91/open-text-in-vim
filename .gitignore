@@ -1,0 +1,5 @@
+# Build output
+OpenInVim.app/
+
+# Debug logs
+*.log

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Open file(s) in vim in a fresh Ghostty window (no tmux).
+exec /Applications/Ghostty.app/Contents/MacOS/ghostty -e vim "$@"
