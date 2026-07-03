@@ -72,3 +72,7 @@ src/main.applescript     droplet source (tmux + nvim + Ghostty)
 src/doctypes.plist       "associate all files" document-types fragment
 bin/open-in-vim          standalone no-tmux variant
 ```
+
+## License
+
+MIT
